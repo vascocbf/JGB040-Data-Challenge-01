@@ -9,3 +9,9 @@ to make your changes on the model take the following steps:
 - Test your changes.
 - Talk with the rest of the group!
 - Only after confirmation commit your changes to main or a branch.
+
+## Repo includes
+
+- Model template 
+- Our model 
+- 
