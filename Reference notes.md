@@ -40,7 +40,7 @@ using 2 linear function layers.
 
 
 
-- 2D Convolution layer:	
+## 2D Convolution layer:	
 - https://pytorch.org/docs/stable/generated/torch.nn.Conv2d.html?highlight=nn%20conv2d#torch.nn.Conv2d
 
 	- in_channels  (input size for this layer) (for the first one it is 1 because it recieves 1 image)*
@@ -50,7 +50,7 @@ using 2 linear function layers.
 	- activation function: ReLU
 	- dropout: probablility
 
-- Linear layer:
+## Linear layer:
 - https://pytorch.org/docs/stable/generated/torch.nn.Linear.html?highlight=linear#torch.nn.Linear
 
 	- in_features (input size per sample)
