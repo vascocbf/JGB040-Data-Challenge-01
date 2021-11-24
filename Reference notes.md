@@ -1,6 +1,49 @@
 # List of hyper-parameters, defenitions, and functions in template model
 
-# Relevant libraries: 
+# Model template layers
+
+Stats:
+- Number of trainable parameters: 80,982
+- Elapsed training time: 5 minutes
+
+In this model the forward pass passes by the 3 2D convolution layers, 
+and then the output is "flattened" to 1 dimension
+using 2 linear function layers.
+
+
+
+## 2D Convolution layer	
+- https://pytorch.org/docs/stable/generated/torch.nn.Conv2d.html?highlight=nn%20conv2d#torch.nn.Conv2d
+
+	- in_channels  (input size for this layer) (for the first one it is 1 because it recieves 1 image)*
+	- out_channels (output size of this layer)
+	- kernel_size  (size of kernel for convolution)
+	- stride       ("step size")
+	- activation function: ReLU
+	- dropout: probablility
+
+## Linear layer
+- https://pytorch.org/docs/stable/generated/torch.nn.Linear.html?highlight=linear#torch.nn.Linear
+
+	- in_features (input size per sample)
+	- out_features (output size per sample)
+	- bias (is there or not a bias feature in model)
+
+# Our model
+
+Stats:
+- Number of trainable parameters: 
+- Elapsed training time: 
+
+Below is a description of the current model in use, as well as some possible variations of it
+
+## Layer alternatives
+ 
+- Layer 1 (reason to use it)
+- Layer 2 (...)
+- Layer 3 (...)
+	
+# Relevant libraries 
 
 - numpy (linear algebra, arrays, matrices etc)
 
@@ -10,7 +53,7 @@
 
 - sklearn (ML only used for dataset split)
 
-# General parameters:
+# General parameters
 
 - batch_size
 
@@ -30,32 +73,3 @@ Further research in what layers are available in pytorch.nn and their characteri
 
 
 
-# Model Layers: 
-
-(elapsed time: 5 minutes)
-
-In this model the forward pass passes by the 3 2D convolution layers, 
-and then the output is "flattened" to 1 dimension
-using 2 linear function layers.
-
-
-
-## 2D Convolution layer:	
-- https://pytorch.org/docs/stable/generated/torch.nn.Conv2d.html?highlight=nn%20conv2d#torch.nn.Conv2d
-
-	- in_channels  (input size for this layer) (for the first one it is 1 because it recieves 1 image)*
-	- out_channels (output size of this layer)
-	- kernel_size  (size of kernel for convolution)
-	- stride       ("step size")
-	- activation function: ReLU
-	- dropout: probablility
-
-## Linear layer:
-- https://pytorch.org/docs/stable/generated/torch.nn.Linear.html?highlight=linear#torch.nn.Linear
-
-	- in_features (input size per sample)
-	- out_features (output size per sample)
-	- bias (is there or not a bias feature in model)
-
-
-	
