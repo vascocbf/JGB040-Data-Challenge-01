@@ -14,4 +14,4 @@ to make your changes on the model take the following steps:
 
 - Model template 
 - Our model 
-- 
+- Reference notes
