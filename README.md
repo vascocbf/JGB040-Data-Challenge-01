@@ -1,5 +1,8 @@
 # JGB040-Data-Challenge-01
+
 This repo contains the work of group 04 for the course JGB040 Data Challenge 01, affiliated to Technical University of Eindehoven
+
+
 
 ## Instructions 
 to make your changes on the model take the following steps:
@@ -10,6 +13,11 @@ to make your changes on the model take the following steps:
 - Talk with the rest of the group!
 - Only after confirmation commit your changes to main or a branch.
 
+## Repo includes
+
+- Model template 
+- Our model 
+- Reference notes
 
 ## Relevant libraries 
 
@@ -35,12 +43,6 @@ to make your changes on the model take the following steps:
 
 To choose the layers and their specific components we would need to
 look into the data to have an insight and be able to make smart choices
-
-## Repo includes
-
-- Model template 
-- Our model 
-- Reference notes
 
 
 ## Model template layers
