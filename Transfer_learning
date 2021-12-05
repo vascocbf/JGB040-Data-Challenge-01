@@ -7,6 +7,10 @@ model_inception.fc = nn.Linear(num_ftrs, 6)
 
 model_inception = model_inception.to(device)
 
+#inception_outputs: 
+#InceptionOutputs = namedtuple("InceptionOutputs", ["logits", "aux_logits"])
+#InceptionOutputs.__annotations__ = {"logits": Tensor, "aux_logits": Optional[Tensor]}
+
 n_epochs = 10
 batch_size = 25
 
